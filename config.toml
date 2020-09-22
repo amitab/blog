@@ -1,7 +1,7 @@
 baseurl = "https://username.github.io"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
-title = "Beautiful Hugo"
+title = "Core Dumps"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
@@ -15,21 +15,21 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Build a beautiful and simple website in minutes"
+  subtitle = "signal 11 (Segmentation fault), 0x 79 6f 20 6d 61 6d 61 20 69 73 20 73 6f 20 66 61 74 2c 20 73 68 65 20 63 61 6e 20 66 6c 61 74 74 65 6e 20 61 20 62 69 6e 61 72 79 20 74 72 65 65 20 69 6e 20 4f 28 31 29 20 74 69 6d 65"
   mainSections = ["post","posts"]
-  logo = "img/avatar-icon.png" # Expecting square dimensions
+  logo = "img/portrait.jpg" # Expecting square dimensions
   favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
+  dateFormat = "02/01/2006"
   commit = false
-  rss = true
-  comments = true
+  rss = false
+  comments = false
   readingTime = true
   wordCount = true
   useHLJS = true
   socialShare = true
   delayDisqus = true
   showRelatedPosts = true
-#  hideAuthor = true
+  hideAuthor = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
 #[[Params.bigimg]]
@@ -45,34 +45,11 @@ pygmentsCodefencesGuessSyntax = true
 #  desc = "Hexagon"
 
 [Author]
-  name = "Some Person"
-  website = "yourwebsite.com"
-  email = "youremail@domain.com"
-  facebook = "username"
-  github = "username"
-  gitlab = "username"
-  bitbucket = "username"
-  twitter = "username"
-  reddit = "username"
-  linkedin = "username"
-  xing = "username"
-  stackoverflow = "users/XXXXXXX/username"
-  snapchat = "username"
-  instagram = "username"
-  youtube = "user/username" # or channel/channelname
-  soundcloud = "username"
-  spotify = "username"
-  bandcamp = "username"
-  itchio = "username"
-  vk = "username"
-  paypal = "username"
-  telegram = "username"
-  500px = "username"
-  codepen = "username"
-  mastodon = "url"
-  kaggle = "username"
-  weibo = "username"
-  slack = "username"
+  name = "Amitabh Das"
+  email = "adas59@asu.edu"
+  github = "amitab"
+  linkedin = "amitab"
+  instagram = "thekeystroker"
 
 [[menu.main]]
     name = "Blog"
